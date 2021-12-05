@@ -12,7 +12,8 @@
 ## 双指针算法
 ### 26. Remove Duplicates from Sorted Array
 删除重复的元素，并在数组结尾用0补齐删除所空出的空间。这题可能要三个指针，i指向numsSize-1，j指向numsSize-2，pos指针指向numsSize-1.for语句令i，j指针向下遍历，遇到相同的两个元素，删除掉后一个元素，然后将后面的元素都向前提一格，最后将pos指针所指的元素赋值为0，然后pos--。
-
+### 88. Merge Sorted Array
+合并两个排好序的数组，一个
 
 
 
