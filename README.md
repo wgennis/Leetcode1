@@ -22,6 +22,8 @@
 ## 二分查找
 ### 33. Search in Rotated Sorted Array
 这题用二分查找是最快的，因为在分半查找之后一定会出现有一半的数组是递增排序的，然后在这一半有序数组中就很容易查找target，找不到就去另外一半去查找。
+### 34. Find First and Last Position of Element in Sorted Array
+二分查找可以最快地接近目标值
 
 
 
