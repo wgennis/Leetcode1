@@ -25,7 +25,7 @@
 ### 34. Find First and Last Position of Element in Sorted Array
 二分查找可以最快地接近目标值，然后在目标值地左右查找与其相同地元素，再返回。
 ### 69. Sqrt(x)
-先设mid=(0+x)/2,sprt=x/mid,如果sqrt=mid,则算术平方根就是mid,如果sqrt
+先设mid=(0+x)/2,sprt=x/mid,如果sqrt=mid,则算术平方根就是mid,如果sqrt>mid在上半个数组中继续查找，否则在下半个数组中继续查找。由于算术平方根通常小于x/2，我就直接在（0，x/2）中查找。
 
 
 
