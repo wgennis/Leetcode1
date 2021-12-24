@@ -45,6 +45,8 @@
 ## 深度优先搜索
 ### 94. Binary Tree Inorder Traversal
 二叉树的中序遍历。
+### 200. Number of Islands
+岛屿数量，1是陆地，0是海洋，相连的是岛屿。
 
 
 
